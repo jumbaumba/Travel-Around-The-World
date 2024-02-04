@@ -8,14 +8,15 @@ html,body {
 	height: 100%;
 	justify-content: center;
 	align-items: center;
+	background-color: #212121;
 }
 
 .logo {
 	text-decoration: none;
 	font-family: 'Nunito', sans-serif;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 50px;
-	color: white;
+	font-size: 40px;
+	color: #e77447;
 	padding-left: 10px;
 }
 button {
@@ -64,7 +65,7 @@ main {
 	object-fit: cover;
 }
 header {
-	background-color: slateblue;
+	background-color: #e8e8e8;
 	height: 65px;
 	align-items: center;
 	display: flex;
@@ -79,7 +80,7 @@ header {
 	position: fixed;
 	width: 300px;
 	height: 100%;
-	background: slateblue;
+	background: #6150F7;
 	top: 65px;
 	right: 0;
 	justify-content: center;
@@ -149,7 +150,7 @@ header {
 }
 .sh-block:hover {
 	transform: translateY(-10px);
-	box-shadow: 0px 10px 10px burlywood ;
+	box-shadow: 0px 10px 10px #e77447 ;
 }
 
 .sh-block a{
