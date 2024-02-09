@@ -11,12 +11,30 @@ html,body {
 	background-color: #212121;
 }
 
+
+
+.pattern {
+	width: 100%;
+	
+	--s: 37px; /* control the size */
+
+	--c: #0000, #282828 0.5deg 119.5deg, #0000 120deg;
+	--g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));
+	--g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));
+	--g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));
+	background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)), var(--g2),
+	  var(--g2) var(--s) calc(1.73 * var(--s)), var(--g3) var(--s) 0,
+	  var(--g3) 0 calc(1.73 * var(--s)) #1e1e1e;
+	background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
+}
+
+
 .logo {
 	text-decoration: none;
 	font-family: 'Nunito', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 40px;
-	color: #e77447;
+	color: #fd6f37;
 	padding-left: 10px;
 }
 button {
@@ -65,7 +83,7 @@ main {
 	object-fit: cover;
 }
 header {
-	background-color: #e8e8e8;
+	background-color: #e8e8e89d;
 	height: 65px;
 	align-items: center;
 	display: flex;
@@ -80,7 +98,7 @@ header {
 	position: fixed;
 	width: 300px;
 	height: 100%;
-	background: #6150F7;
+	background:  #1e1e1e;
 	top: 65px;
 	right: 0;
 	justify-content: center;
@@ -115,8 +133,8 @@ header {
 	padding: 0;
 }
 .cont-menu li a:hover {
-	background-color: plum;
-	color: black;
+	background-color: whitesmoke;
+	color: #fd6f37 ;
 	transition: 0.3s linear;
 }
 .cont-menu ul li {
@@ -130,6 +148,7 @@ header {
 	font-size: 50px;
 	height: auto;
 	width: auto;
+	color: #f8743f;
 	text-align: center;
 	margin-bottom: 40px;
 	font-family: 'Nunito', sans-serif;
