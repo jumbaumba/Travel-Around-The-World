@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.sh-cont{
+    width: 1100px;
+    height: 670px;
+    position: relative;
+}
+.sh-cont img{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.sh-cont p{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 700;
+}
+.karusel{
+    overflow: hidden;
+}
