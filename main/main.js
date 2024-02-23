@@ -12,3 +12,13 @@ if (menuToggler) {
 		}
 	})
 }
+$(document).ready(function(){
+	$(".owl-carousel").owlCarousel(
+	  {
+		loop:true,
+		margin: 15,
+		mouseDrag:true,
+		dots: 0
+	  }
+	);
+  });

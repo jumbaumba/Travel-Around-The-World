@@ -201,16 +201,18 @@ header {
 	bottom: 0;
 	left: 0;
     width: 100%;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.452);
 }
 .textupper {
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 30px;
 	padding: 0 18px 6px;
-	font-weight: 600;
+	font-weight: 500;
 	white-space: normal;
 	font-family: 'Nunito', sans-serif;
 	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	align-items: stretch;
 }
 .textdown{
 	font-size: 15px;
