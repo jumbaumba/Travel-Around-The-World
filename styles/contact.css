@@ -38,11 +38,16 @@ html,body{
 }
 
 .card .img {
-    width: 4.8em;
-    height: 4.8em;
+    width: 150px;
+    height: 150px;
     background: white;
-    border-radius: 15px;
+    border-radius: 18px;
     margin: auto;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .card .share {
