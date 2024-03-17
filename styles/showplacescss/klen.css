@@ -181,3 +181,36 @@ iframe{
     object-fit: cover;
     aspect-ratio: 4/3;
 }
+@media(max-width: 1320px) {
+	.container{
+		width: 100%;
+		padding: 0 30px;
+	}
+	.sh-cont{
+		width: 100%;
+	}
+	.sh-cont img{
+		object-fit: cover;
+	}
+	.owl-item img{
+		object-fit: cover;
+	}
+	.cont-menu{
+		width: 200px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container h2 {
+	text-align: left;
+	}
+	.container p {
+		text-align: left;
+		}
+
+	.owl-carousel img {
+	margin: auto;
+	float: none;
+	display: block;
+	}
+}
