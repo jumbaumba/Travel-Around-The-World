@@ -19,7 +19,8 @@ $(document).ready(function(){
 		margin: 15,
 		mouseDrag:true,
 		dots: 0,
-		autoscroll: true
+		
 	  }
 	);
   });
+
