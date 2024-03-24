@@ -136,7 +136,7 @@ header {
 .cont-menu li a:hover {
 	background-color: whitesmoke;
 	color: #fd6f37 ;
-	transition: 0.3s linear;
+	transition: 0.1s linear;
 }
 .cont-menu ul li {
 	width: 100%;

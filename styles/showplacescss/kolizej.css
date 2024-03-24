@@ -178,10 +178,15 @@ iframe{
     object-fit: cover;
 	aspect-ratio: 4/3;
 }
+.owl-carousel{
+	text-align: center;
+	font-size: larger;
+}
 @media(max-width: 1320px) {
 	.container{
 		width: 100%;
-		padding: 0 30px;
+		padding: 0 15px;
+		margin-top: 0;
 	}
 	.sh-cont{
 		width: 100%;
@@ -276,7 +281,11 @@ iframe{
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
 @media (max-width: 500px) {
 .otziv {
-    text-align: center;
+	margin: 0 16px;
+	margin-bottom: 16px;
+	width: 300px;
+	align-items: center;
+	justify-content: center;
 }
 
 .otziv img {
