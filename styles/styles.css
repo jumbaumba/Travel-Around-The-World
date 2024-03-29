@@ -168,6 +168,18 @@ header {
 	text-align: left;
 	background-repeat: no-repeat;
 }
+.sh-block .country{
+	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+position: absolute;
+top: 10px;
+right: 10px;
+background: rgba(255, 255, 255, 0.7);
+z-index: 999;
+color: black;
+padding: 5px;
+border-radius: 7px;
+}
 .sh-block:hover {
 	transform: translateY(-10px);
 	box-shadow: 0px 10px 10px #e77447 ;
